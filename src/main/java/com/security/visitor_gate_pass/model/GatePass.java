@@ -49,9 +49,9 @@ public class GatePass {
 
     private String qrData;
     private boolean active = true;
-    @JsonFormat(pattern = "dd.MM.yyyy hh:mm a")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createdAt;
-    @JsonFormat(pattern = "dd.MM.yyyy hh:mm a")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime approvedAt;
     private String approvedBy;
     private String rejectionReason;
